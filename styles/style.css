@@ -33,3 +33,38 @@ body{
     color: dimgray;
 
 }
+/* player profile style end  */
+
+/* highlights area style start  */
+.second-sec{
+    display: flex;
+    margin-top: 165px;
+    margin-right: 156px;
+    margin-left: 182px;
+}
+.highlights-title{
+    font-size: 48px;
+}
+.highlights-area{
+    width: 469px;
+    height: 309px;
+    margin-right: 66px;
+}
+.channel-link{
+    font-size: 16px;
+    font-weight: 500;
+}
+.channel-link a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+
+}
+.fa-arrow-right{
+    padding-left: 12px;
+}
+.highlight-image img{
+    width: 567px;
+    height: 427px;
+}
