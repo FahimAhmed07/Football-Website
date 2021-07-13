@@ -68,3 +68,30 @@ body{
     width: 567px;
     height: 427px;
 }
+/* highlights area style end  */
+
+ /* gallery style start */
+ .third-sec{
+     margin-top: 165px;
+ }
+ .gallery-title{
+     margin-left: 30px;
+    font-size: 40px;
+    color: midnightblue;
+ }
+ .gallery-images{
+     display: flex;
+ }
+ .gallery-image img{
+     width: 506px;
+     height: 380.5px;
+     padding: 3px 3px 0px 1px;
+ }
+ .second-line-images{
+     display: flex;
+ }
+ .second-line-image img{
+     width: 303.6px;
+     height: 228.3px;
+     padding: 3px 3px 3px 1px;
+ }
