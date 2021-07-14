@@ -8,7 +8,7 @@ body{
 /* navigation styles start */
 nav{
     margin-bottom: 70px;
-    background-color: blue;
+    background-color: rgb(12, 12, 238);
 }
 nav:hover .nav-image{
     transform: rotate(60deg);
@@ -260,11 +260,118 @@ footer{
 /* media query start  */
 
 @media only screen and (max-width:668px) {
-    nav{
-        background-color: red;
+    /* navigation area start  */
+
+    .top-info, .nav-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .first-sec .second-sec .third-sec .fourth-sec footer{
-        display: none;
+    
+    .channel-title{
+        width: 274px;
+        height: 200px;
+        font-size: 36px;
     }
+    .nav-image{
+        margin-top: 62px;
+    }
+    .nav-image img{
+        
+        width: 329px;
+        height: 259.17px;
+    }
+    
+    /* navigation area end  */
+
+    /* first sec area start */
+
+    .players{
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player-profile{
+        width: 280px;
+        height: 454px;
+    }
+    .player-profile img{
+        width: 280px;
+    }
+    /* first sec area end  */
+
+    /* highlights area start  */
+
+    .second-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .highlights-title{
+        font-size: 30px;
+    }
+    .highlights-area{
+        width: 289px;
+        height: 299px;
+        
+
+    }
+    .highlight-image{
+        margin-top: 97px;
+        padding-right: 66px;
+
+    }
+    .highlight-image img{
+        width: 328px;
+        height: 248px;
+    }
+    /* highlights area end  */
+
+    /* gallery area start  */
+    .third-sec{
+        margin-top: 60px;
+    }
+    .gallery-images{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery-image img{
+        width: 310px;
+        height: 300px;
+    }
+    .second-line-images{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-line-image img{
+        width: 310px;
+    }
+    /* gallery area end  */
+
+    /* sponsor area start  */
+    .fourth-sec{
+        margin-top: 60px;
+    }
+    .sponsors{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }.sponsor{
+        margin-bottom: 15px;
+    }
+    /* sponsor area end  */
+
+    /* footer area start  */
+    footer{
+        margin-top: 54px;
+    }
+    .footer-image img{
+        width: 275.8px;
+        height: 92.98px;
+    }
+    /* footer area end  */
+
     
 }
