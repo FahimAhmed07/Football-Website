@@ -259,7 +259,7 @@ footer{
     
 /* media query start  */
 
-@media only screen and (max-width:668px) {
+@media only screen and (max-width:688px) {
     /* navigation area start  */
 
     .top-info, .nav-info{
@@ -337,12 +337,17 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    
+    .gallery-image img{
+        width: 310px;
+        height: 300px;
+    }
     .second-line-images{
         display: flex;
         flex-direction: column;
     }
-    
+    .second-line-image img{
+        width: 310px;
+    }
     /* gallery area end  */
 
     /* sponsor area start  */
@@ -368,6 +373,6 @@ footer{
     }
     /* footer area end  */
 
-    /* media query for tab  */
 
+    
 }
