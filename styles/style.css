@@ -154,5 +154,39 @@ body{
  }
  /* sponsor style end  */
 
-
+/* footer style start  */
+footer{
+    margin-top: 158px;
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+}
+.footer-image img{
+    width: 483.87px;
+    height: 110px;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    font-size: 30px;
+    padding-left: 14px;
+    color: #969BAB;
+}
+.copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* footer style end  */
     
