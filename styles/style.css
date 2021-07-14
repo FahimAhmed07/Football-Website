@@ -98,6 +98,9 @@ body{
  /* gallery style end  */
 
  /* sponsor style start  */
+ .fourth-sec{
+     margin-top: 100px;
+ }
  .sponsor-title{
      font-size: 30px;
      color: midnightblue;
