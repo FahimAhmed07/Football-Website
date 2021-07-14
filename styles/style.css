@@ -337,17 +337,12 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    .gallery-image img{
-        width: 310px;
-        height: 300px;
-    }
+    
     .second-line-images{
         display: flex;
         flex-direction: column;
     }
-    .second-line-image img{
-        width: 310px;
-    }
+    
     /* gallery area end  */
 
     /* sponsor area start  */
@@ -373,5 +368,6 @@ footer{
     }
     /* footer area end  */
 
-    
+    /* media query for tab  */
+
 }
